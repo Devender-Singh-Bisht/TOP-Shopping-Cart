@@ -71,8 +71,8 @@
 
 
 @media screen and (max-width: 650px) {
-    nav {
-        padding: 10px 20px;
+    .navbar {
+        padding: 10px 10px;
     }
 
     .normalNav {
