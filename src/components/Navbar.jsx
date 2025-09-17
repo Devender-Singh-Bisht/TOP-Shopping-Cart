@@ -11,7 +11,7 @@ function Navbar() {
     }
 
     return (
-        <nav>
+        <nav className={styles.navbar}>
             <div className={styles.logo}>AuraKart</div>
 
             <button className={styles.toggleButton} onClick={handleToggle} >
@@ -25,8 +25,8 @@ function Navbar() {
             </ul>
 
             <ul className={styles.normalNav}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="shop">Shop</Link></li>
+                <li><Link to="/" className={styles.normalLinkHover}>Home</Link></li>
+                <li><Link to="shop" className={styles.normalLinkHover}>Shop</Link></li>
                 <li >
                     <Link to="cart">
                         <img className={styles.cartImg} src={cartImage} alt="Cart" />
