@@ -1,0 +1,127 @@
+
+.heroSection {
+    width: 100%;
+    min-height: 560px;
+    padding: 60px 40px;
+    background-color: var(--thirdColor);
+    background-image: url("../assets/heroImage.png");
+    background-size: cover;
+    background-position: bottom right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.heading, .subHeading {
+    max-width: 500px;
+}
+
+.heading {
+    color: var(--primaryColor);
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    text-shadow: 10px 5px 3px #25252563;
+}
+
+.subHeading {
+    color: var(--primaryColor);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Allan", serif;
+}
+
+.subHeading + .subHeading {
+    margin-top: 30px;
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+}
+
+.heroBtn {
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    transition: all 0.1s ease-in;
+}
+
+.heroBtn:hover {
+    transform: scale(1.05);
+}
+
+.heroBtn a {
+    padding: 10px 40px;
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+    text-decoration: none;
+    border: 2px solid var(--primaryColor);
+    border-radius: 10px;
+    box-shadow: 6px 6px 16px 0px var(--primaryColor);
+}
+
+.saleImg {
+    position: relative;
+    left: 100px;
+    top: 20px;
+    width: 100px;
+    animation: swing 2s ease-in-out infinite alternate;
+}
+
+@keyframes swing {
+    from {
+        transform: rotate(45deg);
+        transform-origin: top center;
+    }
+    to {
+        transform: rotate(-45deg);
+        transform-origin: top center;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .subHeading {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .heroSection {
+        padding: 40px;
+        min-height: 400px;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+    
+    .subHeading {
+        font-size: 1.5rem;
+    }
+
+    .saleImg {
+        width: 80px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heroSection {
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+    
+    .subHeading {
+        font-size: 1rem;
+    }
+
+    .heroBtn a {
+        padding: 10px 20px;
+    }
+
+    .saleImg {
+        width: 50px;
+        left: 0;
+    }
+}

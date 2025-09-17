@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Anton&family=Fontdiner+Swanky&family=Funnel+Display:wght@300..800&display=swap');
 
 
 :root {
   font-family: "Funnel Display", system-ui, Avenir, Helvetica, Arial, sans-serif;
   --primaryColor: rgb(179, 52, 52);
   --secondaryColor: rgb(243, 243, 104);
+  --thirdColor: rgb(255, 224, 224);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#root {
+  max-width: 1364px;
+  margin: 0 auto;
 }
 
