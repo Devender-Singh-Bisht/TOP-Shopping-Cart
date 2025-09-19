@@ -6,6 +6,7 @@
     align-items: center;
     padding: 10px 50px;
     background-color: var(--secondaryColor);
+    z-index: 2;
 }
 
 .logo {
