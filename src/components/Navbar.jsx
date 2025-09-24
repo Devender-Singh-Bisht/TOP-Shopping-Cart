@@ -20,15 +20,15 @@ function Navbar() {
 
             <ul className={`${styles.smallNav} ${!toggle&&styles.hide}`}>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="shop">Shop</Link></li>
-                <li><Link to="cart">Cart</Link></li>
+                <li><Link to="/shop">Shop</Link></li>
+                <li><Link to="/cart">Cart</Link></li>
             </ul>
 
             <ul className={styles.normalNav}>
                 <li><Link to="/" className={styles.normalLinkHover}>Home</Link></li>
-                <li><Link to="shop" className={styles.normalLinkHover}>Shop</Link></li>
+                <li><Link to="/shop" className={styles.normalLinkHover}>Shop</Link></li>
                 <li >
-                    <Link to="cart">
+                    <Link to="/cart">
                         <img className={styles.cartImg} src={cartImage} alt="Cart" />
                     </Link>
                 </li>
