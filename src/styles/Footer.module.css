@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px;
+    padding: 30px 50px 0 50px;
+    background-color: var(--thirdColor);
+    color: var(--primaryColor);
+}
+
+.linksHeader {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.link {
+    display: block;
+    margin: 5px 0;
+    color: var(--primaryColor);
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact span {
+    font-weight: 700;
+}
+
+.copyrightText {
+    margin: 10px auto;
+}
