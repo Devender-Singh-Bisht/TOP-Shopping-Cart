@@ -9,8 +9,8 @@ function Footer() {
                 <div className={styles.links}>
                     <div className={styles.linksHeader}>Links:</div>
                     <Link to="/" className={styles.link}>Home</Link>
-                    <Link to="shop" className={styles.link}>Shop</Link>
-                    <Link to="cart" className={styles.link}>Cart</Link>
+                    <Link to="/shop" className={styles.link}>Shop</Link>
+                    <Link to="/cart" className={styles.link}>Cart</Link>
                 </div>
                 <div className={styles.contact}><span>Contact Us:</span> xxxxxxxxxx</div>
             </div>
