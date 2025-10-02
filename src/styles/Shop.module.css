@@ -1,0 +1,28 @@
+.error {
+    margin: 50px auto;
+    padding: 50px;
+    max-width: 800px;
+    font-size: 2rem;
+}
+
+.errorHeader {
+    font-size: 5rem;
+    font-family: "Anton", sans-serif;
+}
+
+.heading {
+    padding: 50px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 90%;
+    min-height: 200px;
+    margin: 0 auto 50px auto;
+}

@@ -1,0 +1,119 @@
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 130, 130, 0.623);
+    z-index: 2;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    height: 80%;
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+}
+
+.imgCont {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 150, 150, 0.171);
+}
+
+.imgCont img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.itemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.desc {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    color: var(--primaryColor);
+}
+
+.countItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.operationBtn {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    background-color: var(--thirdColor);
+    border: none;
+    cursor: pointer;
+}
+
+.operationBtn:hover {
+    border: 1px solid black;
+}
+
+.countInput {
+    width: 40px;
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 101);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1 ease-out;
+}
+
+.submitBtn:hover {
+    background-color: yellow;
+}
+
+.removeBtn {
+    composes: submitBtn;
+    background-color: rgb(255, 0, 0);
+}
+
+.removeBtn:hover {
+    background-color: rgb(255, 58, 58);
+}
+
+.totalPrice {
+    font-size: 2rem;
+    color: rgb(43, 255, 0);
+    font-weight: 700;
+}
+
+.totalPrice span {
+    font-weight: 400;
+}

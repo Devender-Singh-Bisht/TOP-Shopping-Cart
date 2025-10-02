@@ -5,7 +5,7 @@
   font-family: "Funnel Display", system-ui, Avenir, Helvetica, Arial, sans-serif;
   --primaryColor: rgb(179, 52, 52);
   --secondaryColor: rgb(243, 243, 104);
-  --thirdColor: rgb(197 236 255);
+  --thirdColor: rgb(172, 227, 255);
 }
 
 * {
