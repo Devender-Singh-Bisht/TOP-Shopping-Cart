@@ -1,12 +1,38 @@
-# React + Vite
+# 🛍️ E-Commerce Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and dynamic front-end shopping cart application built with **React**, utilizing local state management to handle product listings, quantity updates, and cart totals. Product data is fetched directly from the **Fake Store API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+* **Product Listing:** Fetches and displays a full catalog of products.
+* **Detailed View:** Modal display of individual product details (description, image, price).
+* **Quantity Control:** Local state management for incrementing/decrementing item quantities.
+* **Responsive Design:** Optimized for a smooth experience across devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Preview
+[![Live Preview](https://img.shields.io/badge/Live--Preview-Click%20Here-brightgreen?style=for-the-badge)]()
+
+
+
+---
+
+## 🛠️ Technology Stack
+
+* **Frontend:** React
+* **Styling:** CSS Modules
+* **Data Source:** Fake Store API
+
+---
+
+## 📝 Future Improvements
+
+* Implement a separate **Cart View** page to display aggregated items.
+* Add logic for calculating and displaying a dynamic **Cart Total**.
+* Utilize **Context API** or **Redux** for robust global state management.
+* **Image Optimization** (Lazy loading, placeholders) for improved performance.
+
+---
