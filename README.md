@@ -14,7 +14,7 @@ A responsive and dynamic front-end shopping cart application built with **React*
 ---
 
 ## 🖼️ Preview
-[![Live Preview](https://img.shields.io/badge/Live--Preview-Click%20Here-brightgreen?style=for-the-badge)]()
+[![Live Preview](https://img.shields.io/badge/Live--Preview-Click%20Here-brightgreen?style=for-the-badge)](https://aurakart.netlify.app/)
 
 
 
